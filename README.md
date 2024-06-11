@@ -1,5 +1,7 @@
 # React + Vite
 
+Check the app from here https://01-currency-converter-project.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
