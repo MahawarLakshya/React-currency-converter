@@ -26,12 +26,7 @@ function App() {
   return (
     
       <div
-          className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-teal-400"
-         
-          // style={{
-          //     backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
-          // }}
-      >
+          className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-teal-400">
          <h1 className='bg-white/50 flex flex-wrap  justify-center items-center text-black w-full max-w-md mx-auto  px-4 py-3 rounded-lg'>Currency Converter</h1>
           <div className="w-full">
               <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
@@ -72,7 +67,7 @@ function App() {
                           />
                       </div>
                       <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg  hover:text-black hover:bg-white">
-                          Convert {from.toUpperCase()} to{to.toUpperCase()}
+                          Convert {from.toUpperCase()} to {to.toUpperCase()}
                       </button>
                   </form>
               </div>
